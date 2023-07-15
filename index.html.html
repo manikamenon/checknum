@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color:rgb(16, 16, 16) ;text-align: center; "  >
+        <h1 style="color:#5b07e1;text-align: left;">Greatest Number Find</h1>
+        
+        <input type="number" name="" id="a1" placeholder="Enter first Number" ><br>
+        <br>
+        <input type="number" name="" id="a2" placeholder="Enter second Number" ><br>
+
+        <br>
+        <button style="background-color: rgb(255, 0, 30); width: 200px;height: 50px;" type="button" onclick="numCheck()">CHECK</button>
+    </div>
+
+</body>
+<script>
+        function numCheck(){
+        num1=parseInt(a1.value)
+        num2=parseInt(a2.value)
+ if(num1>num2){
+            alert(`num1 is greater than ${num2}`)
+}
+else if (num2>num1){
+    alert(`num2 is greater than ${num1}`)
+}
+else{
+    alert(`equal`)
+}
+
+
+    }
+
+</script>
+</html>
